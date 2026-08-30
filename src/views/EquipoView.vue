@@ -9,13 +9,12 @@ import {
 </script>
 
 <template>
-  <section class="section-card">
-    <header class="team-heading">
-      <span class="team-heading__icon" aria-hidden="true" />
-      <h1 class="page-title">Equipo</h1>
-    </header>
-    <hr class="team-divider" />
+  <header class="page-header">
+    <h1 class="page-title">Equipo</h1>
+    <p class="lead">Docentes, investigadoras/es, estudiantes y asociados del núcleo.</p>
+  </header>
 
+  <section class="section-card">
     <h2 class="section-title">Coordinadoras</h2>
     <div class="people-grid">
       <article v-for="person in coordinadoras" :key="person.name" class="person-card">
@@ -23,7 +22,7 @@ import {
         <div>
           <h3>{{ person.name }}</h3>
           <p>{{ person.bio }}</p>
-          <p class="person-card__contact">Contacto: {{ person.contact }}</p>
+          <p class="person-card__contact">{{ person.contact }}</p>
           <button class="person-card__cv" type="button">CV Completo</button>
         </div>
       </article>
@@ -36,7 +35,7 @@ import {
         <div>
           <h3>{{ person.name }}</h3>
           <p>{{ person.bio }}</p>
-          <p class="person-card__contact">Contacto: {{ person.contact }}</p>
+          <p class="person-card__contact">{{ person.contact }}</p>
           <button class="person-card__cv" type="button">CV Completo</button>
         </div>
       </article>

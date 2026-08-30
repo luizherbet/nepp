@@ -1,3 +1,9 @@
+export const institutionName = 'NEPPSUNILA'
+export const institutionFullName =
+  'Núcleo de Estudos sobre Políticas de Proteção Social'
+export const university = 'Universidad Federal de Integración Latinoamericana'
+export const universityAbbr = 'UNILA'
+
 export const shortPhrase =
   'Investigación, formación y difusión sobre políticas sociales, protección social y bienestar.'
 
@@ -9,6 +15,24 @@ export const missionText =
 
 export const visionText =
   'Constituirse como un espacio de investigación sobre políticas sociales y protección social en América Latina, contribuyendo a la producción de conocimiento crítico, comparado y socialmente relevante sobre las políticas públicas, las condiciones de vida y los desafíos del bienestar en la región.'
+
+export const pillars = [
+  {
+    title: 'Investigación',
+    description:
+      'Proyectos comparados sobre protección social, trabajo y desigualdad en América Latina.',
+  },
+  {
+    title: 'Formación',
+    description:
+      'Formación de investigadores y docentes en políticas sociales desde una perspectiva crítica.',
+  },
+  {
+    title: 'Difusión',
+    description:
+      'Publicaciones, seminarios y debate público sobre políticas de bienestar y protección social.',
+  },
+]
 
 export const coordinadoras = [
   {

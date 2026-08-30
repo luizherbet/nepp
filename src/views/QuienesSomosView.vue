@@ -3,13 +3,16 @@ import { aboutText, missionText, shortPhrase, visionText } from '../data/siteCon
 </script>
 
 <template>
-  <section class="section-card">
+  <header class="page-header">
     <h1 class="page-title">¿Quiénes somos?</h1>
     <p class="lead">{{ shortPhrase }}</p>
+  </header>
+
+  <section class="section-card">
     <p>{{ aboutText }}</p>
   </section>
 
-  <section class="split-grid">
+  <div class="split-grid">
     <article class="section-card">
       <h2 class="section-title">Misión</h2>
       <p>{{ missionText }}</p>
@@ -18,5 +21,5 @@ import { aboutText, missionText, shortPhrase, visionText } from '../data/siteCon
       <h2 class="section-title">Visión</h2>
       <p>{{ visionText }}</p>
     </article>
-  </section>
+  </div>
 </template>
